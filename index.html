@@ -12,14 +12,45 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color:  hsl(212, 45%, 89%);
+      position: relative;
+    }
+    .container{
+      display: block;
+      margin:auto;
+      width: 300px;
+      height: 500px;
+      display:flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+       background-color:hsl(0, 0%, 100%) ;
+       border-radius: 4px;
+
+      
+    }
+    .container img{
+      margin: auto;
+      width: 150px;
+      height: 50%;
+    }
+
+    .container p{
+      padding: 8pxs;
+      margin: auto;
+    }
+
+
   </style>
 </head>
 <body>
-
-  Improve your front-end skills by building projects
+<div class="container"> 
+  <img src="images/image-qr-code.png" alt="qr code">
+ <p> Improve your front-end skills by building projects
 
   Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
+</p>
+</div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
